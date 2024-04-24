@@ -79,7 +79,7 @@ function atualizaMediaFinal() {
     const mediaFinal = calculaMediaFinal();
 
     /* Recuperar o elemento */
-    document.getElementById("media-final-valor").innerHTML = mediaFinal;
+    document.getElementById("media-final-valor").innerHTML = mediaFinal.toFixed(2);
     document.getElementById("media-final-resultado").innerHTML = mediaFinal >= notaMinima ? spanAprovado : spanReprovado;
 }
 
