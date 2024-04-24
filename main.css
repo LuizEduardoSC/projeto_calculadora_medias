@@ -1,0 +1,97 @@
+* {/* reset */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif; /* Aplicar a fonte a todos os textos */
+}
+
+body { /* Corpo */
+    background-color: #E7E7E7; /* Cor de fundo */
+    padding-top: 100px; /* Espaçamento do topo */
+}
+
+header { /*  */
+    display: flex; /* Deixar os elementos um ao lado do outro */
+    align-items: center; /* Centralizar os itens na vertical */
+    margin-bottom: 40px; /* Adicionar margem ao fundo do header (Título) */
+}
+
+header img { /* Imagem do header */
+    height: 36px;
+    margin-right: 16px; /* Aplciar margem na direita */
+}
+
+header h1 { /* Título do header */
+    font-size: 40px;
+    font-weight: bold; /* Peso da fonte = negrito */
+}
+
+.container { /* Ocupar 100% Até 960px */
+    max-width: 960px; /* Tamanho máximo que pode ser ocupado na tela */
+    width: 100%; /* Largura */
+    margin: 0 auto;/* Centralizar na horizontal */
+}
+
+form {
+    display: flex;
+    justify-content: space-between;/* Distribuir o espaçamento entre os itens */
+    max-width: 640px; /* Tamanho máximo que pode ser ocupado na tela */
+    width: 100%; /* Largura */
+    margin-bottom: 56px; /* Adicionar margem ao fundo do form */
+}
+
+form input { /* Estilizar o input dentro da tag form */
+    font-size: 24px; /* Tamanho da fonte */ 
+    background-color: #fff; /* Cor de fundo */
+    border: none; /* Remover a borda do botão */
+    border-bottom: 2px solid #000; /* Borda inferior */
+    padding: 8px; /* Espaçamento */
+}
+
+form button { /* Estilizar o botão dentro da tag form */
+    background-color: #009432; /* Cor de fundo */
+    color: #fff; /* Cor da fonte */
+    font-size: 24px; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte = negrito */
+    border: none; /* Remover a borda do botão */
+    cursor: pointer; /* Alterar o tipo do cursor do mouse (pointer = mão) */
+    padding: 8px; /* Espaçamento */
+}
+
+table {
+    width: 100%; /* Ocupar todo o espaço disponível na tela (Respeitando o espaço definido no container) */
+}
+
+table th { /* Estilizar o th dentro de table */
+    border-bottom: 2px solid #000; /* Borda inferior (Adicionar linha) */
+    padding: 16px; /* Espaçamento */
+    font-size: 24px; /* Tamanho da fonte */ 
+    font-weight: bold; /* Peso da fonte = negrito */
+}
+
+table td { /* Estilizar o td dentro de table */
+    padding: 16px 0; /* Aplicar mergem apenas na parte superior e inferior */
+    text-align: center; /* Centralizar o texto */
+    font-size: 18px; /* Tamanho da fonte */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Adicionar borda na parte inferior (na cor preta com transparência */
+}
+
+table td img { /* Estilizar a imagem dentro de td que está dentro de table */
+    height: 30px;
+}
+
+.resultado {
+    padding: 8px; /* Espaçamento */
+    font-weight: bold; /* Peso da fonte = negrito */
+    color: #fff; /* Cor da fonte */
+    background-color: #000; /* Cor de fundo */
+    border-radius: 3px;
+}
+
+.aprovado { /* Criar variação para quando é aprovado */
+    background-color: #009432; /* Cor de fundo */
+}
+
+.reprovado { /* Criar variação para quando é aprovado */
+    background-color: red; /* Cor de fundo */
+}
